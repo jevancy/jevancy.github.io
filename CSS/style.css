@@ -1,0 +1,168 @@
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: black;
+  }
+  
+  .active {
+    background-color: red;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+.main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+  border-style: solid;
+}
+
+ #vlaggen{
+  display: flex;
+  justify-content: center;
+}
+#foto2, #foto3, #foto4 {
+  display:none;
+}
+ body{
+   background-color: cyan;
+ }
+
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+progress{
+  height: 50px;
+  width: 200px;
+}
+
+body{
+	min-width: 100%;
+	text-align: center;
+}
+#all{
+	width:100%;
+	margin: 0 auto; /*centers the website*/
+}
+
+#likes{
+	height:5px;
+	width:50%;
+	background:#0000ee;
+	float:left;
+}
+#dislikes{
+	height:5px;
+	width:50%;
+	background:#ccc;
+	float:right;
+}
+
+#bar{
+	margin:0 auto;
+	width:60%;
